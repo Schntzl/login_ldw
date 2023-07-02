@@ -4,7 +4,11 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #18191d;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 50px;
+    background-color: black;
+    color: #fff;
 }
 
 header {
@@ -28,10 +32,23 @@ img {
 }
 
 .btn{
-    color: black;
-    background-color: red;
-    width: 100px;
+    width: 150px;
     text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    transition-duration: 0.9s;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    border: 1px solid red;
+}
+
+.btn:hover{
+    background-color: rgb(182, 6, 6);
+    color: wheat;
 }
 
 .col-lg-4{
